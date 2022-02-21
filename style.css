@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,21 @@ body {
 }
 
 /* Add styles here! */
+
+/* max-width wrapper utility class */
+.max-width-wrapper {
+  max-width: 350px;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* set minimum height to 100% of viewport height */
+
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+}
