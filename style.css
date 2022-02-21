@@ -32,6 +32,11 @@ body {
   height: 100%;
 }
 
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
 header,
 main {
   padding: 64px 0;
@@ -42,10 +47,6 @@ header {
 
 main {
   background-color: hsl(0, 0%, 60%);
-}
-
-p {
-  line-height: 1.5;
 }
 
 .intro-chunk {
