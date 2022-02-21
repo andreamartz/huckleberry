@@ -13,8 +13,8 @@ body {
 
 /* max-width wrapper utility class */
 .max-width-wrapper {
-  max-width: 350px;
-  padding: 16px;
+  max-width: 750px;
+  /* padding: 32px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -25,6 +25,43 @@ html,
 body {
   height: 100%;
 }
-.wrapper {
-  min-height: 100%;
+
+header,
+main {
+  padding: 64px 0;
+}
+header {
+  border-bottom: 8px solid hsl(240, 0%, 39%);
+}
+
+main {
+  background-color: hsl(0, 0%, 60%);
+}
+
+p {
+  line-height: 1.5;
+}
+
+.intro-chunk {
+  max-width: 357px;
+  padding: 16px;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: 8px solid hsl(240, 0%, 39%);
+  padding: 16px;
+}
+
+.indented-heading {
+  background-color: hsl(45, 100%, 50%);
+  width: fit-content;
+  margin-left: -24px;
+  margin-top: -8px;
+  padding: 16px 24px;
+  border-bottom: 8px solid hsl(45, 100%, 39%);
+}
+
+strong {
+  color: green;
 }
