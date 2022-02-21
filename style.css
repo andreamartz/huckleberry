@@ -3,6 +3,12 @@
   font-family: "Lato", sans-serif;
 }
 
+/* Add styles here! */
+
+* {
+  margin: 0;
+}
+
 html,
 body {
   margin: 0;
@@ -51,6 +57,11 @@ p {
   background-color: hsl(0, 0%, 100%);
   border-bottom: 8px solid hsl(240, 0%, 39%);
   padding: 16px;
+}
+
+.title,
+.indented-heading {
+  margin-bottom: 32px;
 }
 
 .indented-heading {
